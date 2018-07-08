@@ -1,8 +1,24 @@
 <html>
   <body>
-    <script src="gitRepo.js"></script>
-    <input type="text"/>
-    <button onClick="sendRepoRequest()">Get All Repositories</button>
-    <div id="repoListSection"></div>
+    <script src="gitApiSample.js"></script>
+    <link rel="stylesheet" href="gitApiSample.css" />
+    <h1>Sample GitHub API implementation</h1>
+    <div id="userInfoSection">
+      <input type="text" id="username"/>
+      <button onClick="getPublicRepoCount()">Get All Repositories</button>
+    </div>  
+    <div id="repoList">
+      <h2>Repository List</h2>
+      <div id="repoListSection"></div>
+    </div>
+    <form id="issueCreationForm">
+      <h2>New Issue Creation Form</h2>
+      <p>Title:</p><input id="issueTitle"></input>
+      <br>
+      <p>Description:</p><textarea id="issueDescription"></textarea>
+      <div id="submitButton">
+          <button onclick="createNewIssue(this)">Create Issue</button>
+      </div>
+    </form>
     </body>
 </html>

@@ -1,0 +1,75 @@
+body {
+    font-family: 'Gotham';
+    margin: 0 100px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#userInfoSection {
+    text-align: center;
+}
+
+input {
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 30px;
+    height: 40px;
+    outline: 0;
+    padding: 0 15px;
+    width: 300x;
+}
+
+button {
+    background: blue;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    outline: 0;
+    width: 200px;
+}
+
+textarea {
+    border: 1px solid rbg(169, 169, 169);
+    border-radius: 30px;
+    height: 100px;
+    outline: 0;
+    padding: 15px;
+    width: 500px;
+}
+
+#username {
+    margin-right: 20px;
+}
+
+#repoList {
+    display: none;
+    margin-top: 30px;
+}
+
+.user-repo p{
+    display: inline-block;
+    margin-right: 20px;
+    width: 25%;
+}
+
+#issueCreationForm {
+    display: none;
+    margin-top: 30px;
+}
+
+#issueCreationForm p {
+    display: inline-block;
+    width: 20%;
+}
+
+#submitButton {
+    margin-top: 30px;
+    text-align: center;
+}
