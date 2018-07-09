@@ -1,4 +1,4 @@
-this.accessToken = "9e3f9ef87bee6bdbcf7a729d928a338d6759652d"; //Personal Access Token generated from GitHub
+this.accessToken = ""; //Personal Access Token generated from GitHub
 this.elementId = null;
 /**
  * Name:getPublicRepoCount
